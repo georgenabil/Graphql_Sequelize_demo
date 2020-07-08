@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strictPropertyInitialization": false,
+    "module": "commonjs",
+    "jsx": "react",
+    "strict": true,
+    "target": "es6"
+  }
+}
