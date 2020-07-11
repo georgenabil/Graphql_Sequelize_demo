@@ -13,6 +13,11 @@ const typeDefs = gql`
     chef: Chef
   }
 
+  type Mutation {
+    createChef(name: String!): Chef!
+    createResturant(chefid: ID!, name: String!): Resturant!
+  }
+
   type Query {
     chefs: [Chef!]!
   }

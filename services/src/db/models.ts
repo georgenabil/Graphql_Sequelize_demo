@@ -1,10 +1,6 @@
 import { Sequelize, Model, DataTypes } from "sequelize";
 import { type } from "os";
 
-interface connection {
-  connect: (sequelize: Sequelize) => Model;
-}
-
 export class Chef extends Model {
   public static connection(sequelize: Sequelize) {
     return Chef.init(
